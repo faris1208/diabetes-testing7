@@ -1,0 +1,1423 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+@font-face {
+  font-family: "ArchivoBlack";
+  src: url("/fonts/mont/Montserrat-Regular.ttf") format("woff2");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/mont/Montserrat-Regular.ttf") format("woff2");
+}
+@font-face {
+  font-family: "MontserratBold";
+  src: url("/fonts/mont/Montserrat-Bold.ttf") format("woff2");
+}
+body {
+  background-color: transparent;
+  width: 100%;
+  background: #f9f9f9;
+  font-family: Outfit;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: #fff;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  background-color: #336c3a;
+  justify-content: center;
+  padding: 40px 100px;
+}
+.hero .hero_image {
+  width: 42%;
+}
+.hero .hero_image .diabetes_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero .hero_text {
+  width: 50%;
+}
+.hero .hero_text h1 {
+  font-family: ArchivoBlack;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 37px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.hero .hero_text p {
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.hero .hero_text a {
+  width: 100%;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.hero .hero_text a .link_button {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.hero .hero_text a button {
+  width: 88%;
+  padding: 10px 40px;
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 27px;
+  color: #551a8b;
+  text-align: center;
+  cursor: pointer;
+  background-color: #ffff00;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.hero_two_container {
+  padding: 30px 80px;
+}
+.hero_two_container .hero_two_contents {
+  text-decoration: none;
+}
+.hero_two_container .hero_two_contents .hero_two_button {
+  display: flex;
+  justify-content: center;
+}
+.hero_two_container .hero_two_contents .hero_two_button button {
+  padding: 10px 30px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 19px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  background-color: #336c3a;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+.hero_two_container .hero_two_contents .hero_two_text {
+  margin-top: 40px;
+}
+.hero_two_container .hero_two_contents .hero_two_text h3 {
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+}
+.hero_two_container .hero_two_contents .big_image {
+  width: 100%;
+  padding: 0px 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.hero_two_container .hero_two_contents .big_image .big_img {
+  width: 85%;
+  height: unset !important;
+}
+.hero_two_container .hero_two_contents_board {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.hero_two_container .hero_two_contents_board .hero_two_contents_board_text {
+  width: 80%;
+  padding: 40px 20px 20px;
+  border-radius: 20px;
+  background-color: #336c3a;
+}
+.hero_two_container .hero_two_contents_board .hero_two_contents_board_text p {
+  font-family: Montserrat;
+  font-style: italic;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 17px;
+}
+.hero_two_container .hero_two_contents_board .hero_two_contents_board_text p span {
+  font-family: MontserratBold;
+  font-weight: bolder;
+}
+.hero_two_container .hero_two_contents_board .hero_two_contents_board_text b {
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #fff;
+}
+.hero_two_container .hero_two_contents_board .hero_two_contents_board_text b span {
+  text-decoration: underline;
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #fff;
+}
+.hero_two_container .hero_two_contents_board .hero_two_contents_board_text ul {
+  margin-top: 22px;
+  padding: 0px 20px;
+}
+.hero_two_container .hero_two_contents_board .hero_two_contents_board_text ul li {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 19px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.customer_saying_conatiner .customer_saying_contents h3 {
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+}
+.customer_saying_conatiner .customer_saying_contents .whatsapp_images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img {
+  border: 2px solid #000;
+  padding: 15px 10px;
+  width: 25%;
+  border-radius: 20px;
+}
+.customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box {
+  min-height: 100px;
+}
+.customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box .stars_image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box .stars_image .stars_img {
+  width: 50%;
+  height: unset !important;
+}
+.customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box p {
+  font-family: MontserratBold;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 17px;
+  text-align: center;
+  line-height: 30px;
+}
+.customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .last_content {
+  margin-top: 20px;
+}
+.customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .last_content .whatsapp {
+  width: 100%;
+  min-height: 600px;
+}
+.customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review {
+  margin-top: 30px;
+}
+.customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review p {
+  font-family: Montserrat;
+  font-style: italic;
+  font-size: 19px;
+  color: #000;
+  margin-bottom: 17px;
+  text-align: center;
+  line-height: 30px;
+}
+.customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review p span {
+  font-family: MontserratBold;
+  font-weight: bolder;
+}
+
+.howmuch_container {
+  padding: 30px 80px;
+}
+.howmuch_container .howmuch_contents {
+  text-decoration: none;
+}
+.howmuch_container .howmuch_contents .hero_two_button {
+  display: flex;
+  justify-content: center;
+}
+.howmuch_container .howmuch_contents .hero_two_button button {
+  padding: 10px 30px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 19px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  background-color: #336c3a;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+.howmuch_container .howmuch_contents .hero_two_text {
+  margin-top: 40px;
+}
+.howmuch_container .howmuch_contents .hero_two_text h3 {
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+}
+.howmuch_container .howmuch_contents .big_image_wrapper {
+  display: flex;
+  justify-content: center;
+}
+.howmuch_container .howmuch_contents .big_image {
+  width: 85%;
+  background-color: #336c3a;
+  position: relative;
+  border-radius: 20px;
+  padding: 0px 20px 50px;
+  margin-top: 300px;
+}
+.howmuch_container .howmuch_contents .big_image .natural_image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.howmuch_container .howmuch_contents .big_image .natural_image .big_img {
+  margin-top: -300px;
+  width: 85%;
+  object-fit: contain;
+  height: unset !important;
+}
+.howmuch_container .howmuch_contents .big_image .natural_text p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 15px;
+  line-height: 30px;
+}
+.howmuch_container .howmuch_contents .big_image .natural_text p span {
+  font-family: MontserratBold;
+  font-weight: bolder;
+}
+
+.customer_saying_conatiner_two .customer_saying_contents h3 {
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+}
+.customer_saying_conatiner_two .customer_saying_contents .whatsapp_images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img {
+  border: 2px solid #000;
+  padding: 15px 10px;
+  width: 25%;
+  border-radius: 20px;
+}
+.customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box {
+  min-height: 100px;
+}
+.customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box .stars_image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box .stars_image .stars_img {
+  width: 50%;
+  height: unset !important;
+}
+.customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box p {
+  font-family: MontserratBold;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 17px;
+  text-align: center;
+  line-height: 30px;
+}
+.customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .last_content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .last_content .whatsapp {
+  width: 70%;
+  min-height: 200px;
+}
+.customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review {
+  margin-top: 30px;
+}
+.customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review p {
+  font-family: Montserrat;
+  font-style: italic;
+  font-size: 19px;
+  color: #000;
+  margin-bottom: 17px;
+  text-align: center;
+  line-height: 30px;
+}
+.customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review p span {
+  font-family: MontserratBold;
+  font-weight: bolder;
+}
+
+.Delivery {
+  margin-top: 20px;
+}
+.Delivery h3 {
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+}
+.Delivery .free_shipping_image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Delivery .free_shipping_image .free_shipping {
+  width: 25%;
+  object-fit: contain;
+  min-height: 300px;
+}
+
+.customer_saying_conatiner_three {
+  background-color: #336c3a;
+  padding: 30px 0px;
+}
+.customer_saying_conatiner_three .customer_saying_contents h3 {
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img {
+  padding: 15px 10px;
+  width: 25%;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box {
+  min-height: 100px;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box p {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box p span {
+  width: 100%;
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .last_content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .last_content .whatsapp {
+  width: 100%;
+  max-width: 80%;
+  min-height: 450px;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review {
+  margin-top: 30px;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review h2 {
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review .Delivery_box {
+  margin-top: 20px;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review .Delivery_box .free_delivery p {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 10px;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review .Delivery_box .order_now {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review .Delivery_box .order_now button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #336c3a;
+  color: #fff;
+  cursor: pointer;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review .Delivery_box .order_now button .order_now_div {
+  width: 100%;
+  color: #fff;
+}
+.customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review .Delivery_box .order_now button .order_now_div p {
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.guarantee_wrapper .guarantee_image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.guarantee_wrapper .guarantee_image .guarantee_img {
+  width: 25%;
+  height: unset;
+}
+.guarantee_wrapper .guarantee_contents {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.guarantee_wrapper .guarantee_contents .guarantee_text {
+  width: 80%;
+  background-color: #336c3a;
+  border-radius: 20px;
+  padding: 50px 30px 20px;
+}
+.guarantee_wrapper .guarantee_contents .guarantee_text p {
+  font-size: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.guarantee_wrapper .guarantee_contents .guarantee_text p span {
+  font-family: MontserratBold;
+  font-weight: bolder;
+}
+
+.click_wrapper {
+  margin-top: 40px;
+}
+.click_wrapper .click_button {
+  display: flex;
+  justify-content: center;
+}
+.click_wrapper .click_button button {
+  padding: 10px 40px;
+  border: none;
+  outline: none;
+  background-color: #336c3a;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: MontserratBold;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.click_wrapper .click_image_box_contents {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.click_wrapper .click_image_box_contents .box_contents {
+  width: 78%;
+  display: flex;
+  gap: 10px;
+}
+.click_wrapper .click_image_box_contents .box_contents .click_image_box {
+  border: 3px solid #000;
+  padding: 10px;
+  width: 33%;
+}
+.click_wrapper .click_image_box_contents .box_contents .click_image_box .click_img {
+  width: 100%;
+  min-height: 250px;
+}
+
+.Frequently {
+  margin-top: 30px;
+  background-color: #e6ffe9;
+  padding: 30px 20px 20px;
+}
+.Frequently .freq_text h3 {
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 30px;
+  color: #003300;
+  text-align: center;
+}
+.Frequently .accordion_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.Frequently .accordion_wrapper .accordion {
+  width: 78%;
+}
+.Frequently .accordion_wrapper .accordion .accordion_item {
+  border-bottom: 1px solid #ddd;
+}
+.Frequently .accordion_wrapper .accordion .accordion_item .accordion_header {
+  width: 100%;
+  padding: 18px 12px;
+  display: flex;
+  gap: 5px;
+  background: #336c3a;
+  color: #fff;
+  font-family: MontserratBold;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background 0.3s ease-in-out;
+  margin-bottom: 5px;
+}
+.Frequently .accordion_wrapper .accordion .accordion_item .accordion_content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  padding: 10px 20px 80px;
+  display: none;
+  min-height: 130px;
+}
+.Frequently .accordion_wrapper .accordion .accordion_item .accordion_content p {
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-style: normal;
+  color: #000;
+  margin-bottom: 12px;
+  line-height: 25px;
+}
+.Frequently .accordion_wrapper .accordion .accordion_item .icon {
+  transition: transform 0.3s ease;
+}
+.Frequently .accordion_wrapper .accordion .accordion_item.open .accordion_content {
+  display: block;
+}
+.Frequently .accordion_wrapper .accordion .accordion_item.open .accordion_header .icon {
+  transform: rotate(180deg);
+}
+
+.empty_div {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 100px 20px;
+}
+.empty_div .hero_two_text {
+  border: 5px solid #16346b;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.empty_div .hero_two_text h3 {
+  font-family: MontserratBold;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 25px;
+  color: #000;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  background-color: #e6ffe9;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer_last {
+  margin-bottom: 30px;
+}
+.footer .footer_last p {
+  width: 100%;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+  text-align: center;
+  line-height: 30px;
+}
+.footer p {
+  width: 70%;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+  text-align: center;
+  line-height: 30px;
+}
+
+@media (max-width: 480px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #336c3a;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  .hero .hero_image {
+    width: 100%;
+  }
+  .hero .hero_image .diabetes_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .hero .hero_text {
+    width: 100%;
+  }
+  .hero .hero_text h1 {
+    font-family: ArchivoBlack;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 33px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .hero .hero_text p {
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .hero .hero_text a {
+    width: 100%;
+    margin: 0 auto;
+    text-decoration: none;
+  }
+  .hero .hero_text a .link_button {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .hero .hero_text a button {
+    width: 100%;
+    padding: 10px 20px;
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 20px;
+    color: #551a8b;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ffff00;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  .hero_two_container {
+    padding: 30px 20px;
+  }
+  .hero_two_container .hero_two_contents {
+    text-decoration: none;
+  }
+  .hero_two_container .hero_two_contents .hero_two_button {
+    display: flex;
+    justify-content: center;
+  }
+  .hero_two_container .hero_two_contents .hero_two_button button {
+    padding: 10px 30px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: #336c3a;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+  .hero_two_container .hero_two_contents .hero_two_text {
+    margin-top: 40px;
+  }
+  .hero_two_container .hero_two_contents .hero_two_text h3 {
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+  }
+  .hero_two_container .hero_two_contents .big_image {
+    width: 100%;
+    padding: 0px 0px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .hero_two_container .hero_two_contents .big_image .big_img {
+    width: 100%;
+    height: unset !important;
+  }
+  .hero_two_container .hero_two_contents_board {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .hero_two_container .hero_two_contents_board .hero_two_contents_board_text {
+    width: 100%;
+    padding: 40px 20px 20px;
+    border-radius: 20px;
+    background-color: #336c3a;
+  }
+  .hero_two_container .hero_two_contents_board .hero_two_contents_board_text p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 17px;
+    line-height: 35px;
+  }
+  .hero_two_container .hero_two_contents_board .hero_two_contents_board_text p span {
+    font-family: MontserratBold;
+    font-weight: bolder;
+  }
+  .hero_two_container .hero_two_contents_board .hero_two_contents_board_text b {
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+    line-height: 35px;
+  }
+  .hero_two_container .hero_two_contents_board .hero_two_contents_board_text b span {
+    text-decoration: underline;
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+  }
+  .hero_two_container .hero_two_contents_board .hero_two_contents_board_text ul {
+    margin-top: 22px;
+    padding: 0px 20px;
+  }
+  .hero_two_container .hero_two_contents_board .hero_two_contents_board_text ul li {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 19px;
+    color: #fff;
+    margin-bottom: 12px;
+    line-height: 35px;
+  }
+  .customer_saying_conatiner .customer_saying_contents {
+    padding: 0px 5px;
+  }
+  .customer_saying_conatiner .customer_saying_contents h3 {
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+  }
+  .customer_saying_conatiner .customer_saying_contents .whatsapp_images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 10px;
+    margin-top: 30px;
+  }
+  .customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img {
+    border: 3px solid #000;
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box {
+    min-height: 100px;
+  }
+  .customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box .stars_image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box .stars_image .stars_img {
+    width: 50%;
+    height: unset !important;
+  }
+  .customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box p {
+    font-family: MontserratBold;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .last_content {
+    margin-top: 20px;
+  }
+  .customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .last_content .whatsapp {
+    width: 100%;
+    min-height: 700px;
+  }
+  .customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review {
+    margin-top: 30px;
+  }
+  .customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 19px;
+    color: #000;
+    margin-bottom: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .customer_saying_conatiner .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review p span {
+    font-family: MontserratBold;
+    font-weight: bolder;
+  }
+  .howmuch_container {
+    padding: 20px 20px;
+  }
+  .howmuch_container .howmuch_contents {
+    text-decoration: none;
+  }
+  .howmuch_container .howmuch_contents .hero_two_button {
+    display: flex;
+    justify-content: center;
+  }
+  .howmuch_container .howmuch_contents .hero_two_button button {
+    padding: 10px 30px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: #336c3a;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+  .howmuch_container .howmuch_contents .hero_two_text {
+    margin-top: 40px;
+  }
+  .howmuch_container .howmuch_contents .hero_two_text h3 {
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+  }
+  .howmuch_container .howmuch_contents .big_image_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .howmuch_container .howmuch_contents .big_image {
+    width: 100%;
+    background-color: #336c3a;
+    position: relative;
+    border-radius: 20px;
+    padding: 0px 0px 50px;
+    margin-top: 130px;
+  }
+  .howmuch_container .howmuch_contents .big_image .natural_image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .howmuch_container .howmuch_contents .big_image .natural_image .big_img {
+    margin-top: -130px;
+    width: 100%;
+    object-fit: contain;
+    height: unset !important;
+  }
+  .howmuch_container .howmuch_contents .big_image .natural_text {
+    padding: 0px 20px;
+    margin-top: 10px;
+  }
+  .howmuch_container .howmuch_contents .big_image .natural_text p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+    color: #fff;
+    margin-bottom: 15px;
+    line-height: 30px;
+  }
+  .howmuch_container .howmuch_contents .big_image .natural_text p span {
+    font-family: MontserratBold;
+    font-weight: bolder;
+  }
+  .customer_saying_conatiner_two .customer_saying_contents {
+    padding: 0px 10px;
+  }
+  .customer_saying_conatiner_two .customer_saying_contents h3 {
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+    line-height: 35px;
+  }
+  .customer_saying_conatiner_two .customer_saying_contents .whatsapp_images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img {
+    border: 3px solid #000;
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box {
+    min-height: 100px;
+  }
+  .customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box .stars_image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box .stars_image .stars_img {
+    width: 50%;
+    height: unset !important;
+  }
+  .customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box p {
+    font-family: MontserratBold;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .last_content {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .last_content .whatsapp {
+    width: 80%;
+    min-height: 250px;
+  }
+  .customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review {
+    margin-top: 30px;
+    padding: 0px 5px;
+  }
+  .customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review p {
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 19px;
+    color: #000;
+    margin-bottom: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .customer_saying_conatiner_two .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review p span {
+    font-family: MontserratBold;
+    font-weight: bolder;
+  }
+  .Delivery {
+    margin-top: 30px;
+  }
+  .Delivery h3 {
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+  }
+  .Delivery .free_shipping_image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .Delivery .free_shipping_image .free_shipping {
+    width: 100%;
+    object-fit: contain;
+    min-height: 300px;
+  }
+  .customer_saying_conatiner_three {
+    background-color: #336c3a;
+    padding: 30px 20px;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents h3 {
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img {
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box {
+    min-height: 100px;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box p {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .stars_box p span {
+    width: 100%;
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .last_content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .last_content .whatsapp {
+    width: 100%;
+    max-width: 80%;
+    min-height: 500px;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review {
+    margin-top: 30px;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review h2 {
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review .Delivery_box {
+    margin-top: 20px;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review .Delivery_box .free_delivery p {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review .Delivery_box .order_now {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review .Delivery_box .order_now button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #336c3a;
+    color: #fff;
+    cursor: pointer;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review .Delivery_box .order_now button .order_now_div {
+    width: 100%;
+    color: #fff;
+  }
+  .customer_saying_conatiner_three .customer_saying_contents .whatsapp_images .whatsapp_img .customer_review .Delivery_box .order_now button .order_now_div p {
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+  }
+  .guarantee_wrapper .guarantee_image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .guarantee_wrapper .guarantee_image .guarantee_img {
+    width: 100%;
+    height: unset;
+  }
+  .guarantee_wrapper .guarantee_contents {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .guarantee_wrapper .guarantee_contents .guarantee_text {
+    width: 100%;
+    background-color: #336c3a;
+    border-radius: 20px;
+    padding: 40px 30px 20px;
+  }
+  .guarantee_wrapper .guarantee_contents .guarantee_text p {
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 35px;
+  }
+  .guarantee_wrapper .guarantee_contents .guarantee_text p span {
+    font-family: MontserratBold;
+    font-weight: bolder;
+  }
+  .click_wrapper {
+    margin-top: 40px;
+  }
+  .click_wrapper .click_button {
+    display: flex;
+    justify-content: center;
+  }
+  .click_wrapper .click_button button {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background-color: #336c3a;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .click_wrapper .click_image_box_contents {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .click_wrapper .click_image_box_contents .box_contents {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .click_wrapper .click_image_box_contents .box_contents .click_image_box {
+    border: 3px solid #000;
+    padding: 10px;
+    width: 100%;
+  }
+  .click_wrapper .click_image_box_contents .box_contents .click_image_box .click_img {
+    width: 100%;
+    min-height: 250px;
+  }
+  .Frequently {
+    margin-top: 30px;
+    background-color: #e6ffe9;
+    padding: 30px 10px 20px;
+    border: 2px solid red;
+  }
+  .Frequently .freq_text {
+    width: 100%;
+  }
+  .Frequently .freq_text h3 {
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 30px;
+    color: #003300;
+    text-align: center;
+    line-height: 35px;
+  }
+  .Frequently .accordion_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .Frequently .accordion_wrapper .accordion {
+    width: 100%;
+  }
+  .Frequently .accordion_wrapper .accordion .accordion_item {
+    border-bottom: 1px solid #ddd;
+  }
+  .Frequently .accordion_wrapper .accordion .accordion_item .accordion_header {
+    width: 100%;
+    padding: 18px 12px;
+    display: flex;
+    gap: 5px;
+    background: #336c3a;
+    color: #fff;
+    font-family: MontserratBold;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s ease-in-out;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  .Frequently .accordion_wrapper .accordion .accordion_item .accordion_content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    padding: 10px 20px 80px;
+    display: none;
+    min-height: 130px;
+  }
+  .Frequently .accordion_wrapper .accordion .accordion_item .accordion_content p {
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+    margin-bottom: 12px;
+    line-height: 25px;
+  }
+  .Frequently .accordion_wrapper .accordion .accordion_item .icon {
+    transition: transform 0.3s ease;
+  }
+  .Frequently .accordion_wrapper .accordion .accordion_item.open .accordion_content {
+    display: block;
+  }
+  .Frequently .accordion_wrapper .accordion .accordion_item.open .accordion_header .icon {
+    transform: rotate(180deg);
+  }
+  .empty_div {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0px;
+  }
+  .empty_div .hero_two_text {
+    border: 3px solid #16346B;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+  .empty_div .hero_two_text h3 {
+    font-family: MontserratBold;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 21px;
+    color: #000;
+    text-align: center;
+  }
+  .footer {
+    width: 100%;
+    background-color: #E6FFE9;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .footer_last {
+    margin-bottom: 30px;
+  }
+  .footer .footer_last p {
+    width: 100%;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+  }
+  .footer p {
+    width: 100%;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+    text-align: center;
+    line-height: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
